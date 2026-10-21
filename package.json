@@ -1,0 +1,33 @@
+{
+  "name": "deepseek-direct-search",
+  "version": "1.0.0",
+  "description": "DeepSeek 直搜：用你自己的 API Key，在本机跑一个带历史与归档的联网搜索页",
+  "type": "module",
+  "bin": {
+    "deepseek-direct-search": "bin/cli.js",
+    "dsearch": "bin/cli.js"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "start:open": "node server.mjs --open"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "server.mjs",
+    "public/",
+    "bin/",
+    "start.command",
+    "start.bat",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek",
+    "web-search",
+    "local",
+    "search"
+  ],
+  "license": "MIT"
+}
